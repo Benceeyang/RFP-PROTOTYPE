@@ -7,7 +7,7 @@ render() {
           return (
             <div 
               className={`header ${imgClass} ${(imgClass === activeimgClass)? 'active' : ''}`}
-            />)
+            />);
         })}
       </div>
     )
